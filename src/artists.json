@@ -1,0 +1,364 @@
+{
+  "0": [
+    {
+      "id": 1,
+      "name": "Avril Lavigne",
+      "albumName": "Greatest Hits",
+      "albumCover": "/images/albumCovers/avril lavine.jpg",
+      "releaseYear": "2024",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Sk8er Boi",
+          "path": "/songs/Avril Lavigne - Greatest Hits/01. Sk8er Boi.mp3"
+        },
+        {
+          "id": 2,
+          "name": "Girlfriend",
+          "path": "/songs/Avril Lavigne - Greatest Hits/02. Girlfriend.mp3"
+        },
+        {
+          "id": 3,
+          "name": "What The Hell",
+          "path": "/songs/Avril Lavigne - Greatest Hits/03. What The Hell.mp3"
+        },
+        {
+          "id": 4,
+          "name": "Complicated",
+          "path": "/songs/Avril Lavigne - Greatest Hits/04. Complicated.mp3"
+        },
+        {
+          "id": 5,
+          "name": "Don't Tell Me",
+          "path": "/songs/Avril Lavigne - Greatest Hits/05. Don't Tell Me.mp3"
+        },
+        {
+          "id": 6,
+          "name": "I'm A Mess (feat. Yungblud)",
+          "path": "/songs/Avril Lavigne - Greatest Hits/06. I'm A Mess (feat. Yungblud).mp3"
+        },
+        {
+          "id": 7,
+          "name": "He Wasn't",
+          "path": "/songs/Avril Lavigne - Greatest Hits/07. He Wasn't.mp3"
+        },
+        {
+          "id": 8,
+          "name": "Losing Grip",
+          "path": "/songs/Avril Lavigne - Greatest Hits/08. Losing Grip.mp3"
+        },
+        {
+          "id": 9,
+          "name": "My Happy Ending",
+          "path": "/songs/Avril Lavigne - Greatest Hits/09. My Happy Ending.mp3"
+        },
+        {
+          "id": 10,
+          "name": "Bite Me",
+          "path": "/songs/Avril Lavigne - Greatest Hits/10. Bite Me.mp3"
+        },
+        {
+          "id": 11,
+          "name": "Nobody's Home",
+          "path": "/songs/Avril Lavigne - Greatest Hits/11. Nobody's Home.mp3"
+        },
+        {
+          "id": 12,
+          "name": "I'm With You",
+          "path": "/songs/Avril Lavigne - Greatest Hits/12. I'm With You.mp3"
+        },
+        {
+          "id": 13,
+          "name": "When You're Gone",
+          "path": "/songs/Avril Lavigne - Greatest Hits/13. When You're Gone.mp3"
+        },
+        {
+          "id": 14,
+          "name": "Bois Lie",
+          "path": "/songs/Avril Lavigne - Greatest Hits/14. Bois Lie.mp3"
+        },
+        {
+          "id": 15,
+          "name": "Smile",
+          "path": "/songs/Avril Lavigne - Greatest Hits/15. Smile.mp3"
+        },
+        {
+          "id": 16,
+          "name": "Love It When You Hate Me",
+          "path": "/songs/Avril Lavigne - Greatest Hits/16. Love It When You Hate Me.mp3"
+        },
+        {
+          "id": 17,
+          "name": "Rock N Roll",
+          "path": "/songs/Avril Lavigne - Greatest Hits/17. Rock N Roll.mp3"
+        },
+        {
+          "id": 18,
+          "name": "Here's To Never Growing Up",
+          "path": "/songs/Avril Lavigne - Greatest Hits/18. Here's To Never Growing Up.mp3"
+        },
+        {
+          "id": 19,
+          "name": "Keep Holding On",
+          "path": "/songs/Avril Lavigne - Greatest Hits/19. Keep Holding On.mp3"
+        },
+        {
+          "id": 20,
+          "name": "Head Above Water",
+          "path": "/songs/Avril Lavigne - Greatest Hits/20. Head Above Water.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dua Lipa",
+      "albumName": "Future Nostalgia",
+      "albumCover": "/images/albumCovers/dua-lipa-future-nostalgia.jpg",
+      "releaseYear": "2020",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Boys Will Be Boys",
+          "path": "/songs/Dua Lipa - Future Nostalgia/1. Boys Will Be Boys.mp3"
+        },
+        {
+          "id": 2,
+          "name": "Break My Heart",
+          "path": "/songs/Dua Lipa - Future Nostalgia/2. Break My Heart.mp3"
+        },
+        {
+          "id": 3,
+          "name": "Cool",
+          "path": "/songs/Dua Lipa - Future Nostalgia/3. Cool.mp3"
+        },
+        {
+          "id": 4,
+          "name": "Don't Start Now",
+          "path": "/songs/Dua Lipa - Future Nostalgia/4. Don't Start Now.mp3"
+        },
+        {
+          "id": 5,
+          "name": "Future Nostalgia",
+          "path": "/songs/Dua Lipa - Future Nostalgia/5. Future Nostalgia.mp3"
+        },
+        {
+          "id": 6,
+          "name": "Good In Bed",
+          "path": "/songs/Dua Lipa - Future Nostalgia/6. Good In Bed.mp3"
+        },
+        {
+          "id": 7,
+          "name": "Hallucinate",
+          "path": "/songs/Dua Lipa - Future Nostalgia/7. Hallucinate.mp3"
+        },
+        {
+          "id": 8,
+          "name": "Levitating",
+          "path": "/songs/Dua Lipa - Future Nostalgia/8. Levitating.mp3"
+        },
+        {
+          "id": 9,
+          "name": "Love Again",
+          "path": "/songs/Dua Lipa - Future Nostalgia/9. Love Again.mp3"
+        },
+        {
+          "id": 10,
+          "name": "Physical",
+          "path": "/songs/Dua Lipa - Future Nostalgia/10. Physical.mp3"
+        },
+        {
+          "id": 11,
+          "name": "Pretty Please",
+          "path": "/songs/Dua Lipa - Future Nostalgia/11. Pretty Please.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lindsey Stirling",
+      "albumName": "Lindsey Stirling",
+      "albumCover": "/images/albumCovers/lindsey-stirling-lindsey-stirling.png",
+      "releaseYear": "2012",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Anti Gravity",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/1. Anti Gravity.mp3"
+        },
+        {
+          "id": 2,
+          "name": "Crystallize",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/2. Crystallize.mp3"
+        },
+        {
+          "id": 3,
+          "name": "Electric Daisy Violin",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/3. Electric Daisy Violin.mp3"
+        },
+        {
+          "id": 4,
+          "name": "Elements",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/4. Elements.mp3"
+        },
+        {
+          "id": 5,
+          "name": "Minimal Beat",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/5. Minimal Beat.mp3"
+        },
+        {
+          "id": 6,
+          "name": "Moon Trance",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/6. Moon Trance.mp3"
+        },
+        {
+          "id": 7,
+          "name": "Shadows",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/7. Shadows.mp3"
+        },
+        {
+          "id": 8,
+          "name": "Song Of The Caged Bird",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/8. Song Of The Caged Bird.mp3"
+        },
+        {
+          "id": 9,
+          "name": "Spontaneous Me",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/9. Spontaneous Me.mp3"
+        },
+        {
+          "id": 10,
+          "name": "Stars Align",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/10. Stars Align.mp3"
+        },
+        {
+          "id": 11,
+          "name": "Transcendence",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/11. Transcendence.mp3"
+        },
+        {
+          "id": 12,
+          "name": "Zi-Zis Journey",
+          "path": "/songs/Lindsey Stirling - Lindsey Stirling/12. Zi-Zis Journey.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Stray Kids",
+      "albumName": "Rock-Star",
+      "albumCover": "/images/albumCovers/Stray Kids - Rock-Star.jpg",
+      "releaseYear": "2023",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Blind Spot",
+          "path": "/songs/Stray Kids - Rock-Star/1. Blind Spot.mp3"
+        },
+        {
+          "id": 2,
+          "name": "Comflex",
+          "path": "/songs/Stray Kids - Rock-Star/2. Comflex.mp3"
+        },
+        {
+          "id": 3,
+          "name": "Cover Me",
+          "path": "/songs/Stray Kids - Rock-Star/3. Cover Me.mp3"
+        },
+        {
+          "id": 4,
+          "name": "Lalalala",
+          "path": "/songs/Stray Kids - Rock-Star/4. Lalalala.mp3"
+        },
+        {
+          "id": 5,
+          "name": "Lalalala (Rock Ver.)",
+          "path": "/songs/Stray Kids - Rock-Star/5. Lalalala (Rock Ver.).mp3"
+        },
+        {
+          "id": 6,
+          "name": "Leave",
+          "path": "/songs/Stray Kids - Rock-Star/6. Leave.mp3"
+        },
+        {
+          "id": 7,
+          "name": "Megaverse",
+          "path": "/songs/Stray Kids - Rock-Star/7. Megaverse.mp3"
+        },
+        {
+          "id": 8,
+          "name": "Social Path (feat. Lisa)",
+          "path": "/songs/Stray Kids - Rock-Star/8. Social Path (feat. Lisa Korean Ver.).mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ласковый май - Белые розы",
+      "albumName": "Ласковый май - Белые розы",
+      "albumCover": "/images/albumCovers/laskovyjj-majj-belye-rozy.jpg",
+      "releaseYear": "1988",
+      "tracks": [
+        {
+          "id": 1,
+          "name": "Белые розы",
+          "path": "/songs/Ласковый май - Белые розы/1. Белые розы.mp3"
+        },
+        {
+          "id": 2,
+          "name": "Взрослые",
+          "path": "/songs/Ласковый май - Белые розы/2. Взрослые.mp3"
+        },
+        {
+          "id": 3,
+          "name": "Все",
+          "path": "/songs/Ласковый май - Белые розы/3. Все.mp3"
+        },
+        {
+          "id": 4,
+          "name": "Лето",
+          "path": "/songs/Ласковый май - Белые розы/4. Лето.mp3"
+        },
+        {
+          "id": 5,
+          "name": "Медленно Уходит Осень",
+          "path": "/songs/Ласковый май - Белые розы/5. Медленно Уходит Осень.mp3"
+        },
+        {
+          "id": 6,
+          "name": "Месяц июль",
+          "path": "/songs/Ласковый май - Белые розы/6. Месяц июль.mp3"
+        },
+        {
+          "id": 7,
+          "name": "Ну, что же ты",
+          "path": "/songs/Ласковый май - Белые розы/7. Ну, что же ты.mp3"
+        },
+        {
+          "id": 8,
+          "name": "Пусть Будет Ночь",
+          "path": "/songs/Ласковый май - Белые розы/8. Пусть Будет Ночь.mp3"
+        },
+        {
+          "id": 9,
+          "name": "Седая ночь",
+          "path": "/songs/Ласковый май - Белые розы/9. Седая ночь.mp3"
+        },
+        {
+          "id": 10,
+          "name": "Тающий снег",
+          "path": "/songs/Ласковый май - Белые розы/10. Тающий снег.mp3"
+        },
+        {
+          "id": 11,
+          "name": "Телефонный роман",
+          "path": "/songs/Ласковый май - Белые розы/11. Телефонный роман.mp3"
+        },
+        {
+          "id": 12,
+          "name": "Я откровенен лишь с луной",
+          "path": "/songs/Ласковый май - Белые розы/12. Я откровенен лишь с луной.mp3"
+        }
+      ]
+    }
+  ]
+}
