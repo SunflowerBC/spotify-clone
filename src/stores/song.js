@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import artist from "../artist.json";
+import artist from '../artist.json';
 
 export const useSongStore = defineStore("song", {
   state: () => ({
@@ -41,17 +41,16 @@ export const useSongStore = defineStore("song", {
         this.loadSong(artist, track);
         return;
       }
-
       this.playOrPauseSong();
     },
     prevSong(currentTrack) {
       let track = artist.tracks[currentTrack.id - 2];
-      this.loadSong(artist.track);
+      this.loadSong(artist, track);
     },
     nextSong(currentTrack) {
       if (currentTrack.id === artist.tracks.length) {
         let track = artist.tracks[0];
-        this.loadSong(artist.track);
+        this.loadSong(artist, track);
       } else {
         let track = artist.tracks[currentTrack.id];
         this.loadSong(artist, track);
@@ -69,4 +68,5 @@ export const useSongStore = defineStore("song", {
       this.currentTrack = null;
     },
   },
+  persist: true
 });

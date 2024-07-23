@@ -61,7 +61,7 @@ onMounted(() => {
       <div v-else class="text-teal-600 font-semibold w-[40px] ml-5">
         <span
           :class="{
-            'text-white': currentTrack && currentTrack.name === track.name,
+            'text-[#DB7093]': currentTrack && currentTrack.name === track.name,
           }"
         >
           {{ index }}
@@ -70,7 +70,7 @@ onMounted(() => {
       <div>
         <div
           :class="{
-            'text-white': currentTrack && currentTrack.name === track.name,
+            'text-[#DB7093]': currentTrack && currentTrack.name === track.name,
           }"
           class="text-teal-600 font-semibold"
         >
