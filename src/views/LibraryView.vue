@@ -1,16 +1,26 @@
 <script setup>
-import SongRow from '../components/SongRow.vue'
+import SongRow from '../components/SongRow.vue';
 import Play from "vue-material-design-icons/Play.vue";
 import Pause from "vue-material-design-icons/Pause.vue";
 import DotsHorizontal from "vue-material-design-icons/DotsHorizontal.vue";
 import Heart from "vue-material-design-icons/Heart.vue";
 import ClockTimeThreeOutline from "vue-material-design-icons/ClockTimeThreeOutline.vue";
-import artist from "../artist.json";
+import artistsData from "../artists.json";
 
 import { useSongStore } from "../stores/song";
 import { storeToRefs } from "pinia";
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 const useSong = useSongStore();
 const { isPlaying, currentTrack, currentArtist } = storeToRefs(useSong);
+
+const artist = computed(() => {
+  const artistId = route.params.artistId;
+  return artistsData.artistsAlbums.find(a => a.id === parseInt(artistId));
+});
+
 const playFunc = () => {
   if(currentTrack.value){
     useSong.playOrPauseThisSong(currentArtist.value, currentTrack.value)

@@ -1,4 +1,4 @@
-di<script setup>
+<script setup>
 import { ref, onMounted, watch } from "vue";
 import MusicPlayerVolume from './MusicPlayerVolume.vue'
 import Heart from "vue-material-design-icons/Heart.vue";
@@ -122,15 +122,15 @@ watch(
   <div class="max-w-[35%] mx-auto w-2/4 mb-3">
     <div class="flex-col items-center justify-center">
       <div class="flex items-center justify-center h-[30px]">
-        <button class="mx-2">
-          <SkipBackward fillColor="#FFFFFF" :size="25" @click="useSong.prevSong(currentTrack)"/>
+        <button class="mx-2" @click="useSong.prevSong(currentTrack)">
+          <SkipBackward fillColor="#FFFFFF" :size="25"/>
         </button>
         <button class="p-1 rounded-full mx-3 bg-white" @click="useSong.playOrPauseThisSong(currentArtist, currentTrack)">
           <Play v-if="!isPlaying" fillColor="teal" :size="25"/>
           <Pause v-else fillColor="teal" :size="25"/>
         </button>
-        <button class="mx-2">
-          <SkipFoward fillColor="#FFFFFF" :size="25" @click="useSong.nextSong(currentTrack)"/>
+        <button class="mx-2" @click="useSong.nextSong(currentTrack)">
+          <SkipFoward fillColor="#FFFFFF" :size="25"/>
         </button>
       </div>
     </div>

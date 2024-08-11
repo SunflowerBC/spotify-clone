@@ -117,12 +117,15 @@ onMounted(() => {
         />
       </RouterLink>
       <div class="py-3.5"></div>
-      <MenuItem
+      <RouterLink to="/new">
+        <MenuItem
         :iconSize="35"
         name="Создать плейлист"
         iconString="icon-plus"
         pageUrl="/playlist"
       />
+      </RouterLink>
+      
       <MenuItem
         class="ml-[1px]"
         :iconSize="35"

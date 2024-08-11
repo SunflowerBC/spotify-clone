@@ -1,5 +1,5 @@
 {
-  "0": [
+  "artistsAlbums": [
     {
       "id": 1,
       "name": "Avril Lavigne",
@@ -293,8 +293,8 @@
     },
     {
       "id": 5,
-      "name": "Ласковый май - Белые розы",
-      "albumName": "Ласковый май - Белые розы",
+      "name": "Ласковый май",
+      "albumName": "Белые розы",
       "albumCover": "/images/albumCovers/laskovyjj-majj-belye-rozy.jpg",
       "releaseYear": "1988",
       "tracks": [
