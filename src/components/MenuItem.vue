@@ -26,24 +26,11 @@ watchEffect(()=>{
     }
 })
 
-const isHover = () => {
-    if(icon === iconString.value + '-active') return
-
-    if(icon === iconString.value + '-inactive'){
-        icon.value = iconString.value + '-inactive-hover'
-        textIsHover.value = true
-    }else{
-        icon.value = iconString.value + '-inactive'
-        textIsHover.value = false
-    }
-}
 </script>
 
 <template>
     <li
     class="flex items-center justify-start pb-4 cursor-pointer"
-    @mouseenter="isHover()"
-    @mouseleave="isHover()"
     >
         <img :width="iconSize" :src="`/public/images/icons/${icon}.svg`">
         <div

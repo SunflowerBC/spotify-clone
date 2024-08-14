@@ -94,7 +94,7 @@ onMounted(() => {
           class="ml-[1px]"
           :iconSize="35"
           name="Главная страница"
-          iconString="icon-home"
+          iconString="home"
           pageUrl="/"
         />
       </RouterLink>
@@ -103,7 +103,7 @@ onMounted(() => {
           class="ml-[1px]"
           :iconSize="35"
           name="Поиск"
-          iconString="icon-search"
+          iconString="search"
           pageUrl="/search"
         />
       </RouterLink>
@@ -112,47 +112,12 @@ onMounted(() => {
           class="ml-[2px]"
           :iconSize="35"
           name="Библиотека песен"
-          iconString="icon-library-like-in-spotify"
+          iconString="library"
           pageUrl="/library"
         />
       </RouterLink>
       <div class="py-3.5"></div>
-      <RouterLink to="/new">
-        <MenuItem
-        :iconSize="35"
-        name="Создать плейлист"
-        iconString="icon-plus"
-        pageUrl="/playlist"
-      />
-      </RouterLink>
-      
-      <MenuItem
-        class="ml-[1px]"
-        :iconSize="35"
-        name="Понравившиеся песни"
-        iconString="icon-heart"
-        pageUrl="/liked"
-      />
     </ul>
-    <div class="border-b border-b-gray-200">
-      <ul>
-        <li
-          class="font-semibold text-[13px] mt-3 text-emerald-700 hover:text-white"
-        >
-          Мой плейлист #1
-        </li>
-        <li
-          class="font-semibold text-[13px] mt-3 text-emerald-700 hover:text-white"
-        >
-          Мой плейлист #2
-        </li>
-        <li
-          class="font-semibold text-[13px] mt-3 mb-2 text-emerald-700 hover:text-white"
-        >
-          Мой плейлист #3
-        </li>
-      </ul>
-    </div>
   </div>
   <div
     class="fixed right-0 top-0 w-[calc(100%-240px)] overflow-auto h-full bg-gradient-to-b from-teal-50 to-white"
